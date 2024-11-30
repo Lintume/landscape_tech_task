@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8c61b8d4a37df0bc438abf90ca33dc38",
+    "content-hash": "62c3c4766e89cd72661d811ba6e6354b",
     "packages": [
         {
             "name": "brick/math",
@@ -212,18 +212,19 @@
         },
         {
             "name": "dnsimmons/openweather",
-            "version": "1.0.7",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/dnsimmons/openweather.git",
-                "reference": "83c6e530d21cd154231ee3eb8c719fdc30c69031"
+                "url": "https://github.com/Lintume/openweather.git",
+                "reference": "28bb84227779118c03dc742427a9704eecc470bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dnsimmons/openweather/zipball/83c6e530d21cd154231ee3eb8c719fdc30c69031",
-                "reference": "83c6e530d21cd154231ee3eb8c719fdc30c69031",
+                "url": "https://api.github.com/repos/Lintume/openweather/zipball/28bb84227779118c03dc742427a9704eecc470bf",
+                "reference": "28bb84227779118c03dc742427a9704eecc470bf",
                 "shasum": ""
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -240,7 +241,6 @@
                     "Dnsimmons\\OpenWeather\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "LGPL-3.0"
             ],
@@ -252,10 +252,9 @@
             ],
             "description": "OpenWeather is a Laravel package simplifying working with the free Open Weather Map APIs.",
             "support": {
-                "issues": "https://github.com/dnsimmons/openweather/issues",
-                "source": "https://github.com/dnsimmons/openweather/tree/1.0.7"
+                "source": "https://github.com/Lintume/openweather/tree/master"
             },
-            "time": "2021-12-27T01:45:14+00:00"
+            "time": "2024-11-30T12:03:13+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -7965,7 +7964,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "dnsimmons/openweather": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

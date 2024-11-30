@@ -5,9 +5,15 @@
     "description": "The skeleton application for the Laravel framework.",
     "keywords": ["laravel", "framework"],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Lintume/openweather"
+        }
+    ],
     "require": {
         "php": "^8.2",
-        "dnsimmons/openweather": "^1.0",
+        "dnsimmons/openweather": "dev-master",
         "laravel/framework": "^11.31",
         "laravel/tinker": "^2.9",
         "livewire/livewire": "^3.5"
