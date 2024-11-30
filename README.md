@@ -7,6 +7,8 @@ This is a weather application built with PHP and Laravel. It fetches current wea
 - Fetch current weather by city name
 - Display weather conditions, temperature, humidity, wind speed, and more
 - Convert wind speed from metric to imperial units
+- CLI command to fetch and display weather data
+- Unit tests for the CLI command
 
 ## Requirements
 
@@ -54,6 +56,21 @@ This is a weather application built with PHP and Laravel. It fetches current wea
 
 1. Open your browser and navigate to `http://localhost:8000`.
 2. Enter a city name to fetch the current weather data.
+
+## CLI Command
+
+You can also fetch and display weather data using the CLI command:
+
+```sh
+php artisan app:weather-search {city}
+```
+Replace `{city}` with the name of the city you want to fetch the weather data for.
+
+## Running Tests
+To run the unit tests for the CLI command, use the following command:
+```sh
+php artisan test
+```
 
 ## Contributing
 
