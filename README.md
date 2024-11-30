@@ -9,20 +9,20 @@ This is a weather application built with PHP and Laravel. It fetches current wea
 - Convert wind speed from metric to imperial units
 - CLI command to fetch and display weather data
 - Unit tests for the CLI command
+- Forked openweather package to add more features
 
 ## Requirements
 
 - PHP 7.4 or higher
 - Composer
-- Laravel 8 or higher
 - OpenWeather API key
 
 ## Installation
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/weather-app.git
-    cd weather-app
+    git clone https://github.com/Lintume/landscape_tech_task.git
+    cd landscape_tech_task
     ```
 
 2. Install dependencies:
@@ -45,6 +45,11 @@ This is a weather application built with PHP and Laravel. It fetches current wea
 5. Generate an application key:
     ```sh
     php artisan key:generate
+    ```
+
+5. Create database tables (choose yes):
+    ```sh
+    php artisan migrate
     ```
 
 6. Run the development server:
